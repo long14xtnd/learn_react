@@ -3,7 +3,8 @@ const Clothes = (props) => {
   console.log(props); //Giá trị của props
   return (
     <div>
-      <h1>{props.children}</h1>
+        {/* props.children lấy ra nội dung text của phần tử thứ 1  */}
+      <h1>{props.children}</h1>  
       <ul>
         <li>
           <b>Tên:</b> {props.name}
